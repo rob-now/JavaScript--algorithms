@@ -1,7 +1,8 @@
 function chunkArrayInGroups(arr, size) {
     //Define variable (array) to store results
     var arrayGroups = [];
-    //For loop to iterate through `arr` by `x + size`
+    //For loop to iterate through `arr` by `size` (x + size) and
+    //stop loop when `x` reaches `arr.length`
     for (x = 0; x < arr.length; x += size) {
         //Slice `arr` from `x` to `x + size` range and then
         //push each grabbed array to `arrayGroups`
