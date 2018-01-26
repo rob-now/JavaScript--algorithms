@@ -5,7 +5,7 @@ function mutation(arr) {
     for (i = 0; i < lowerCaseArr[1].length; i++) {
         //Check if letter from `lowerCaseArr[1][i]` is found in `lowerCaseArr[0]`
         //and check if the value of index is `-1` (`-1` in .indexOf means Not Found)
-        if (lowerCaseArr[0].indexOf(lowerCaseArr[1][i]) == -1) {
+        if (lowerCaseArr[0].indexOf(lowerCaseArr[1][i]) === -1) {
             //If letter not found return false
             return false;
         }
