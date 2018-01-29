@@ -4,7 +4,7 @@ function getIndexToIns(arr, num) {
         return valA - valB;
     });
     //For loop to check if the number in `arr` is bigger or equal to `num`
-    for (x = 0; x < arr.length; x++) {
+    for (var x = 0; x < arr.length; x++) {
         if (arr[x] >= num) {
             //Return index of the value bigger or equal to `num`
             return x;
